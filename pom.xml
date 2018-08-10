@@ -149,7 +149,6 @@
         	<failOnMissingWebXml>false</failOnMissingWebXml>
     		</configuration>
 		</plugin> 	
-            </plugins>
               <plugin>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
@@ -173,7 +172,8 @@
          </goals>
        </execution>
      </executions>
-</plugin>
+     </plugin>
+     </plugins>
 	</build>
 	<distributionManagement>
            <repository>
